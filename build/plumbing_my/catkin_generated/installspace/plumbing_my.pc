@@ -1,0 +1,8 @@
+prefix=/home/boruili/Desktop/ros1lr/install
+
+Name: plumbing_my
+Description: Description of plumbing_my
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

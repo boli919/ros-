@@ -1,0 +1,2 @@
+plumbing_my:subscribertur:tf01_static:topic01:topic_test
+-DCATKIN_DEVEL_PREFIX=/home/boruili/Desktop/ros1lr/devel -DCMAKE_INSTALL_PREFIX=/home/boruili/Desktop/ros1lr/install -G Unix Makefiles

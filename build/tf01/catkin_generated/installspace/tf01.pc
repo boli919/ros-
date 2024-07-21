@@ -1,0 +1,8 @@
+prefix=/home/boruili/Desktop/ros1lr/install
+
+Name: tf01
+Description: Description of tf01
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
