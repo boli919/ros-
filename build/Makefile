@@ -960,6 +960,45 @@ sub01/fast:
 	$(MAKE) -f subscribertur/CMakeFiles/sub01.dir/build.make subscribertur/CMakeFiles/sub01.dir/build
 .PHONY : sub01/fast
 
+#=============================================================================
+# Target rules for targets named test02_pub_turtle
+
+# Build rule for target.
+test02_pub_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test02_pub_turtle
+.PHONY : test02_pub_turtle
+
+# fast build rule for target.
+test02_pub_turtle/fast:
+	$(MAKE) -f tf03_tfs/CMakeFiles/test02_pub_turtle.dir/build.make tf03_tfs/CMakeFiles/test02_pub_turtle.dir/build
+.PHONY : test02_pub_turtle/fast
+
+#=============================================================================
+# Target rules for targets named test03_sub_turtle
+
+# Build rule for target.
+test03_sub_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test03_sub_turtle
+.PHONY : test03_sub_turtle
+
+# fast build rule for target.
+test03_sub_turtle/fast:
+	$(MAKE) -f tf03_tfs/CMakeFiles/test03_sub_turtle.dir/build.make tf03_tfs/CMakeFiles/test03_sub_turtle.dir/build
+.PHONY : test03_sub_turtle/fast
+
+#=============================================================================
+# Target rules for targets named test01_new_turtle
+
+# Build rule for target.
+test01_new_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test01_new_turtle
+.PHONY : test01_new_turtle
+
+# fast build rule for target.
+test01_new_turtle/fast:
+	$(MAKE) -f tf03_tfs/CMakeFiles/test01_new_turtle.dir/build.make tf03_tfs/CMakeFiles/test01_new_turtle.dir/build
+.PHONY : test01_new_turtle/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1034,6 +1073,9 @@ help:
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... turtlesim_generate_messages_cpp"
 	@echo "... sub01"
+	@echo "... test02_pub_turtle"
+	@echo "... test03_sub_turtle"
+	@echo "... test01_new_turtle"
 .PHONY : help
 
 

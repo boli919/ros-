@@ -1,0 +1,18 @@
+<launch>
+    <!--1. open turtle gui-->
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle1" output="screen" />
+    <!--1.1 key board contorl-->
+    <node pkg="turtlesim" type="turtle_teleop_key" name="key_contorl" output="screen" />
+    <!--2. create turlte node-->
+    <node pkg="tf03_tfs" type="test01_new_turtle" name="turtle2" output="screen" />
+    <!--3. broadcast two location of two turtles-->
+    <!--
+        1. only set one node
+        2. start two times
+        3. remote transfer parameters, first transfer turtle one, then turtle 2.
+    -->
+    <node pkg="tf03_tfs" type="test02_pub_turtle" name="pub1" args="turtle1" output="screen" />
+    <node pkg="tf03_tfs" type="test02_pub_turtle" name="pub2" args="turtle2" output="screen" />
+    <!--4. listen to world location, and transfer to location relative to turtle1, then calculate speed function-->
+    <node pkg="tf03_tfs" type="test03_sub_turtle" name="sub" output="screen" />
+</launch>

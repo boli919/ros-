@@ -18,6 +18,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "subscribertur/catkin_generated/package.cmake"
   "tf01_static/catkin_generated/ordered_paths.cmake"
   "tf01_static/catkin_generated/package.cmake"
+  "tf03_tfs/catkin_generated/ordered_paths.cmake"
+  "tf03_tfs/catkin_generated/package.cmake"
   "topic01/catkin_generated/ordered_paths.cmake"
   "topic01/catkin_generated/package.cmake"
   "topic_test/catkin_generated/ordered_paths.cmake"
@@ -29,6 +31,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/boruili/Desktop/ros1lr/src/subscribertur/package.xml"
   "/home/boruili/Desktop/ros1lr/src/tf01_static/CMakeLists.txt"
   "/home/boruili/Desktop/ros1lr/src/tf01_static/package.xml"
+  "/home/boruili/Desktop/ros1lr/src/tf03_tfs/CMakeLists.txt"
+  "/home/boruili/Desktop/ros1lr/src/tf03_tfs/package.xml"
   "/home/boruili/Desktop/ros1lr/src/topic01/CMakeLists.txt"
   "/home/boruili/Desktop/ros1lr/src/topic01/package.xml"
   "/home/boruili/Desktop/ros1lr/src/topic_test/CMakeLists.txt"
@@ -250,6 +254,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "topic_test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "tf01_static/CMakeFiles/CMakeDirectoryInformation.cmake"
   "subscribertur/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tf03_tfs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -315,4 +320,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "subscribertur/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake"
   "subscribertur/CMakeFiles/turtlesim_generate_messages_cpp.dir/DependInfo.cmake"
   "subscribertur/CMakeFiles/sub01.dir/DependInfo.cmake"
+  "tf03_tfs/CMakeFiles/test02_pub_turtle.dir/DependInfo.cmake"
+  "tf03_tfs/CMakeFiles/test03_sub_turtle.dir/DependInfo.cmake"
+  "tf03_tfs/CMakeFiles/test01_new_turtle.dir/DependInfo.cmake"
   )

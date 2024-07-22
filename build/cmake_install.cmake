@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/boruili/Desktop/ros1lr/build/topic_test/cmake_install.cmake")
   include("/home/boruili/Desktop/ros1lr/build/tf01_static/cmake_install.cmake")
   include("/home/boruili/Desktop/ros1lr/build/subscribertur/cmake_install.cmake")
+  include("/home/boruili/Desktop/ros1lr/build/tf03_tfs/cmake_install.cmake")
 
 endif()
 
