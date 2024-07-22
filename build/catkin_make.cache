@@ -1,2 +1,2 @@
-plumbing_my:subscribertur:tf01_static:tf03_tfs:topic01:topic_test
+plumbing_my:subscribertur:tf01_static:tf03_tfs:topic01:topic_test:urdf01_rviz
 -DCATKIN_DEVEL_PREFIX=/home/boruili/Desktop/ros1lr/devel -DCMAKE_INSTALL_PREFIX=/home/boruili/Desktop/ros1lr/install -G Unix Makefiles

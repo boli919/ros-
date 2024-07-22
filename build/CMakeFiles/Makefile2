@@ -60,6 +60,7 @@ all: topic_test/all
 all: tf01_static/all
 all: subscribertur/all
 all: tf03_tfs/all
+all: urdf01_rviz/all
 
 .PHONY : all
 
@@ -71,6 +72,7 @@ preinstall: topic_test/preinstall
 preinstall: tf01_static/preinstall
 preinstall: subscribertur/preinstall
 preinstall: tf03_tfs/preinstall
+preinstall: urdf01_rviz/preinstall
 
 .PHONY : preinstall
 
@@ -87,6 +89,7 @@ clean: topic_test/clean
 clean: tf01_static/clean
 clean: subscribertur/clean
 clean: tf03_tfs/clean
+clean: urdf01_rviz/clean
 
 .PHONY : clean
 
@@ -307,6 +310,24 @@ topic_test/clean: topic_test/CMakeFiles/geometry_msgs_generate_messages_eus.dir/
 topic_test/clean: topic_test/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : topic_test/clean
+
+#=============================================================================
+# Directory level rules for directory urdf01_rviz
+
+# Recursive "all" directory target.
+urdf01_rviz/all: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+
+.PHONY : urdf01_rviz/all
+
+# Recursive "preinstall" directory target.
+urdf01_rviz/preinstall:
+
+.PHONY : urdf01_rviz/preinstall
+
+# Recursive "clean" directory target.
+urdf01_rviz/clean: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
+
+.PHONY : urdf01_rviz/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doxygen.dir
@@ -2236,6 +2257,33 @@ test01_new_turtle: tf03_tfs/CMakeFiles/test01_new_turtle.dir/rule
 tf03_tfs/CMakeFiles/test01_new_turtle.dir/clean:
 	$(MAKE) -f tf03_tfs/CMakeFiles/test01_new_turtle.dir/build.make tf03_tfs/CMakeFiles/test01_new_turtle.dir/clean
 .PHONY : tf03_tfs/CMakeFiles/test01_new_turtle.dir/clean
+
+#=============================================================================
+# Target rules for target urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir
+
+# All Build rule for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all:
+	$(MAKE) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/depend
+	$(MAKE) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/boruili/Desktop/ros1lr/build/CMakeFiles --progress-num= "Built target urdf01_rviz_xacro_generated_to_devel_space_"
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+
+# Build rule for subdir invocation for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boruili/Desktop/ros1lr/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/boruili/Desktop/ros1lr/build/CMakeFiles 0
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule
+
+# Convenience name for target.
+urdf01_rviz_xacro_generated_to_devel_space_: urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/rule
+
+.PHONY : urdf01_rviz_xacro_generated_to_devel_space_
+
+# clean rule for target.
+urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean:
+	$(MAKE) -f urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/build.make urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
+.PHONY : urdf01_rviz/CMakeFiles/urdf01_rviz_xacro_generated_to_devel_space_.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

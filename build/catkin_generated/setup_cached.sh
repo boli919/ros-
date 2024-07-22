@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/boruili/Desktop/ros1lr/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/boruili/Desktop/ros1lr/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/boruili/Desktop/ros1lr/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/boruili/Desktop/ros1lr/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/boruili/Desktop/ros1lr/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/boruili/Desktop/ros1lr/src:$ROS_PACKAGE_PATH"
